@@ -11,7 +11,7 @@ import SwiftUI
 struct ios_Hw2App: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+           APP_view(char:con[1])
         }
     }
 }
